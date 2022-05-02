@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+margin-top: 15px;
+}
+
+h1{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.row{
+    margin: 6px 0;
+}
+
+input[type="text"], input[type="email"], input[list="roles"], input[list="features"]{
+    width: 250px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+textarea{
+    width: 250px;
+    height: 100px;
+    resize: none;
+}

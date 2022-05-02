@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clarusway Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Clarusway Survey Form</h1>
+        <p>Thank you for taking time to help us improve the platform</p>
+        <form action="" method="get">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Name</label>
+                    <div class="col-75">
+                        <input type="text" name="fname" id="fname" placeholder="Enter your name">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Surname</label>
+                    <div class="col-75">
+                        <input type="text" name="lname" id="lname" placeholder="Enter your Surname">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email</label>
+                    <div class="col-75">
+                        <input type="email" name="email" id="email" placeholder="user@clarusway.com">
+                    </div>
+                </div>
+            </div>
+
+            
+                <div class="row">
+                    <div class="col-25">
+                        <label for="role">Which option best describes your current role?</label>
+                        <div class="col-75">
+                            <input list="roles" name="role" id="role" placeholder="Select current role">
+                            <datalist id="roles">
+                                <option value="Role-1">
+                                <option value="Role-2">
+                                <option value="Role-3">
+                            </datalist>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="recommend">Would you recommend Clarusway to a friend?</label>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <div class="col-75">
+                            <input type="radio" name="recommend" id="yes" value="yes" required>
+                            <label for="yes">Definitely, Yes</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <div class="col-75">
+                            <input type="radio" name="recommend" id="maybe" value="maybe">
+                            <label for="maybe">Maybe</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <div class="col-75">
+                            <input type="radio" name="recommend" id="not-sure" value="not-sure">
+                            <label for="not-sure">Not sure</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <div class="col-75">
+                            <input type="radio" name="recommend" id="no" value="no">
+                            <label for="no">Definitely, No</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="feature">What is your favorite feature of Clarusway?</label>
+                        <div class="col-75">
+                            <input list="features" name="feature" id="feature" placeholder="Select an option">
+                            <datalist id="features">
+                                <option value="Feature-1">
+                                <option value="Feature-2">
+                                <option value="Feature-3">
+                            </datalist>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="feature">What would you like to see improved?</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <div class="col-75">
+                            <input type="checkbox" name="improvement" id="front-end" value="front-end">
+                            <label for="front-end">Front-end Projects</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <div class="col-75">
+                            <input type="checkbox" name="improvement" id="back-end" value="back-end">
+                            <label for="back-end">Back-end Projects</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <div class="col-75">
+                            <input type="checkbox" name="improvement" id="data-science" value="data-science">
+                            <label for="data-science">Data Science</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <div class="col-75">
+                            <input type="checkbox" name="improvement" id="additional" value="additional">
+                            <label for="additional">Additional Courses</label>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-25">
+                        <label for="textarea">Any comments or suggestions?</label>    
+                    </div>  
+                    <div class="col-75 textarea-submit">
+                        <textarea name="textarea" id="textarea"></textarea>
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
